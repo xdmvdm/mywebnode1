@@ -8,6 +8,7 @@ pipeline {
     stages{
         stage('Build Docker Image'){
             steps{
+                sh "cd D:\ARGE_Documents\CICD\MiniSample"
                 sh "docker build . -t ${IMAGE_URL_WITH_TAG}"
             }
         }
