@@ -3,7 +3,7 @@ pipeline {
     environment{
         DOCKER_TAG = getDockerTag()
      
-        IMAGE_URL_WITH_TAG = "$/greenredblue/webuyg1:${DOCKER_TAG}"
+        IMAGE_URL_WITH_TAG = "/greenredblue/webuyg1:${DOCKER_TAG}"
     }
     stages{
         stage('Build Docker Image'){
