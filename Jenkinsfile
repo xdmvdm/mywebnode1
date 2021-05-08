@@ -9,7 +9,8 @@ pipeline {
         stage('Build Docker Image'){
             steps{
                 
-                 "docker build . -t ${IMAGE_URL_WITH_TAG}"
+                 echo ${DOCKER_TAG}
+                 
             }
         }
    
