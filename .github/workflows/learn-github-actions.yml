@@ -21,4 +21,9 @@ jobs:
           FIRST_NAME: Atlas
           middle_name: The
           Last_Name: Magnificent
+      - name: "Merhaba test"
+        
+        run: echo "Hello $mesaj  in every stage"
+        env:
+          mesaj: Atlas is a hero
           
