@@ -2,7 +2,7 @@
 #https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
 #https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
 
-name: SyntaxWorkflow
+#name: SyntaxWorkflow
 
 
 # Each workflow is triggered on some events
