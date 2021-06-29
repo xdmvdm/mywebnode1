@@ -1,16 +1,8 @@
-var http = require('http');
-
-var fs = require('fs');
-
-http.createServer(function (req, res) {
-  
- 
-
-  fs.readFile('demo.html', function(err, data) {
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.write(data);
-    return res.end();
-    
-  });
-  
-}).listen(7179);
+const jsonServer = require('json-server');
+const server = jsonServer.create();
+const mydb = jsonServer.router('data.json');
+const mydefaults = jsonServer.defaults();
+const port = process.env.PORT || 6147;
+server.use(mydefaults);
+server.use(mydb);
+server.listen(port);
