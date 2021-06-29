@@ -1,6 +1,6 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const mydb = jsonServer.router('data.json');
+const mydb = jsonServer.router('mydata.json');
 const mydefaults = jsonServer.defaults();
 const port = process.env.PORT || 6147;
 server.use(mydefaults);
