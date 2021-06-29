@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "firstName": "Ayse",
+      "lastName": "Can",
+      "phoneNumber": "123456",
+      "emailAddress": "ayse@hedehodo.com"
+    },
+    {
+      "userId": 2,
+      "firstName": "Fatma",
+      "lastName": "Han",
+      "phoneNumber": "123",
+      "emailAddress": "fatma@hedehodo.com"
+    },
+    {
+      "userId": 3,
+      "firstName": "deniz",
+      "lastName": "cin",
+      "phoneNumber": "4444",
+      "emailAddress": "deniz@hedehodo.com"
+    },
+    {
+      "userId": 4,
+      "firstName": "memet",
+      "lastName": "net",
+      "phoneNumber": "222333",
+      "emailAddress": "memet@hedehodo.com"
+    }
+  ]
+}
